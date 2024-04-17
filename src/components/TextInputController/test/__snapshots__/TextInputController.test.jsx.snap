@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TestComponent > TextInput value change when user enters text 1`] = `
+<div>
+  <input
+    type="text"
+    value="message here!"
+  />
+</div>
+`;

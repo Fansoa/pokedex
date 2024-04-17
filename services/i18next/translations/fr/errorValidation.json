@@ -1,0 +1,4 @@
+{
+  "must.be.at.least.{{number}}.characters": "Le champ doit contenir au moins {{number}} caractères",
+  "must.be.at.most.{{number}}.characters": "Le champ doit contenir au maximum {{number}} caractères"
+}

@@ -1,0 +1,4 @@
+{
+  "must.be.at.least.{{number}}.characters": "Field must be at least {{number}} characters",
+  "must.be.at.most.{{number}}.characters": "Field must be at most {{number}} characters"
+}

@@ -1,0 +1,69 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TestComponent > Label is displayed 1`] = `
+.emotion-0 {
+  background-color: blue;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <p>
+      TestComponent
+    </p>
+    <button
+      type="button"
+    >
+      common:display.the.text
+    </button>
+    <select>
+      <option
+        value="en"
+      >
+        glossary:english
+      </option>
+      <option
+        value="fr"
+      >
+        glossary:french
+      </option>
+    </select>
+    glossary:current.language
+  </div>
+</div>
+`;
+
+exports[`TestComponent > isClicked is displayed when button is clicked 1`] = `
+.emotion-0 {
+  background-color: blue;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <p>
+      TestComponent
+    </p>
+    <button
+      type="button"
+    >
+      common:display.the.text
+    </button>
+    <select>
+      <option
+        value="en"
+      >
+        glossary:english
+      </option>
+      <option
+        value="fr"
+      >
+        glossary:french
+      </option>
+    </select>
+    glossary:current.language
+  </div>
+</div>
+`;
