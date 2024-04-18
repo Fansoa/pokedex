@@ -3,6 +3,7 @@ import { ThemeProvider } from "@emotion/react";
 import theme from "@/src/theme/theme";
 import "@/services/i18next/initTranslation";
 import "../../src/normalize.css";
+import GlobalStyles from "@/src/theme/sharedStyles/components/GlobalStyles";
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
@@ -21,6 +22,7 @@ export const decorators = [
     themes: { default: theme },
     defaultTheme: "default",
     Provider: ThemeProvider,
+    GlobalStyles,
   }),
 ];
 
