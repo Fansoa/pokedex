@@ -1,10 +1,11 @@
 import styled from "@emotion/styled";
+import global from "@/src/theme/global";
 
 const Container = styled.div`
   background: linear-gradient(
     180deg,
-    rgba(244, 162, 97, 1) 0%,
-    rgba(20, 26, 43, 1) 100%
+    ${global.colors.sandyBrown} 0%,
+    ${global.colors.darkSlateGray} 100%
   );
   min-height: 100vh;
   height: 100%;
