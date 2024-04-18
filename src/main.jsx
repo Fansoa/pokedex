@@ -9,7 +9,7 @@ import GlobalStyles from "@/src/theme/sharedStyles/components/GlobalStyles";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <GlobalStyles/>
+    <GlobalStyles />
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
