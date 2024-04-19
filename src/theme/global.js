@@ -7,6 +7,8 @@ const global = {
     darkSlateGray: "#264653",
     burntSienna: "#E76F51",
     maximumBlue: "#38A8D5",
+    taupeGrey: "#8F8F8F",
+    gainsboro: "#DEDEDE",
     grullo: "#A8A87B", // Normal
     mandarin: "#EE803B", // Fire
     cornflowerBlue: "#6A92ED", // Water

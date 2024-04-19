@@ -1,28 +1,49 @@
+import {
+  Container,
+  ErrorMessage,
+  Input,
+  Label,
+} from "@/src/components/TextInput/styled";
 import PropTypes from "prop-types";
 
-const TextInput = ({ onChange, value, name, ...props }) => {
+const TextInput = ({
+  label,
+  errorMessage,
+  onChange,
+  value,
+  name,
+  ...props
+}) => {
   return (
-    <input
-      name={name}
-      onChange={onChange}
-      type="text"
-      value={value}
-      // eslint-disable-next-line react/jsx-props-no-spreading
-      {...props}
-    />
+    <Container>
+      {label && <Label>{label}</Label>}
+      <Input
+        name={name}
+        onChange={onChange}
+        type="text"
+        value={value}
+        // eslint-disable-next-line react/jsx-props-no-spreading
+        {...props}
+      />
+      {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
+    </Container>
   );
 };
 
 TextInput.propTypes = {
+  label: PropTypes.string,
+  errorMessage: PropTypes.string,
   name: PropTypes.string,
   onChange: PropTypes.func,
   value: PropTypes.string,
 };
 
 TextInput.defaultProps = {
-  name: undefined,
-  onChange: undefined,
-  value: undefined,
+  label: null,
+  errorMessage: null,
+  name: null,
+  onChange: null,
+  value: null,
 };
 
 export default TextInput;
