@@ -7,4 +7,8 @@ export default {
 
 export const TextInputStory = {
   name: "Default",
+  args: {
+    label: "Pokemon name or id",
+    errorMessage: "Message d'erreur",
+  },
 };

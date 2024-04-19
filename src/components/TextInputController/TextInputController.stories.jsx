@@ -19,3 +19,20 @@ export const TextInputControllerStory = {
     name: "inputName",
   },
 };
+
+export const TextInputControllerStoryWithLabel = {
+  name: "With label",
+  args: {
+    name: "inputName",
+    label: "Pokemon name or id",
+  },
+};
+
+export const TextInputControllerStoryWithErrorMessage = {
+  name: "With error message",
+  args: {
+    name: "inputName",
+    label: "Pokemon name or id",
+    errorMessage: "Message d'erreur",
+  },
+};

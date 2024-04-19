@@ -1,10 +1,142 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`TestComponent > TextInput value change when user enters text 1`] = `
+exports[`TestComponent > TextInput should display error message 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.emotion-1 {
+  width: 17.5rem;
+  height: 3.5rem;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #DEDEDE;
+  color: #264653;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+.emotion-1:focus-visible {
+  outline: none;
+}
+
+.emotion-2 {
+  color: red;
+}
+
 <div>
-  <input
-    type="text"
-    value=""
-  />
+  <div
+    class="emotion-0"
+  >
+    <input
+      class="emotion-1"
+      type="text"
+      value=""
+    />
+    <p
+      class="emotion-2"
+    >
+      error message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`TestComponent > TextInput should display label 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.emotion-1 {
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #8F8F8F;
+  text-transform: uppercase;
+}
+
+.emotion-2 {
+  width: 17.5rem;
+  height: 3.5rem;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #DEDEDE;
+  color: #264653;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+.emotion-2:focus-visible {
+  outline: none;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <p
+      class="emotion-1"
+    >
+      label
+    </p>
+    <input
+      class="emotion-2"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`TestComponent > TextInput value change when user enters text 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.emotion-1 {
+  width: 17.5rem;
+  height: 3.5rem;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #DEDEDE;
+  color: #264653;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+.emotion-1:focus-visible {
+  outline: none;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <input
+      class="emotion-1"
+      type="text"
+      value=""
+    />
+  </div>
 </div>
 `;

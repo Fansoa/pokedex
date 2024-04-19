@@ -12,11 +12,32 @@ describe("TestComponent", () => {
     container = renderWithIntegrationProvider(<TextInput />).container;
     const user = userEvent.setup();
     const input = screen.getByRole("textbox");
-    expect(input).toBeInTheDocument();
     await act(async () => {
       await user.type(input, "message here!");
     });
+
+    expect(input).toBeInTheDocument();
     expect(input).toHaveValue("message here!");
+    expect(container).toMatchSnapshot();
+  });
+
+  it("TextInput should display label", async () => {
+    container = renderWithIntegrationProvider(
+      <TextInput label="label" />,
+    ).container;
+    const label = screen.getByText(/label/i);
+
+    expect(label).toBeInTheDocument();
+    expect(container).toMatchSnapshot();
+  });
+
+  it("TextInput should display error message", async () => {
+    container = renderWithIntegrationProvider(
+      <TextInput errorMessage="error message" />,
+    ).container;
+    const errorMessage = screen.getByText(/error message/i);
+
+    expect(errorMessage).toBeInTheDocument();
     expect(container).toMatchSnapshot();
   });
 });

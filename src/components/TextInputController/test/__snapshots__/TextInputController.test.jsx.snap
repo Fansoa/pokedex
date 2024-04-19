@@ -1,10 +1,41 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`TestComponent > TextInput value change when user enters text 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.emotion-1 {
+  width: 17.5rem;
+  height: 3.5rem;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #DEDEDE;
+  color: #264653;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+.emotion-1:focus-visible {
+  outline: none;
+}
+
 <div>
-  <input
-    type="text"
-    value="message here!"
-  />
+  <div
+    class="emotion-0"
+  >
+    <input
+      class="emotion-1"
+      type="text"
+      value="message here!"
+    />
+  </div>
 </div>
 `;
