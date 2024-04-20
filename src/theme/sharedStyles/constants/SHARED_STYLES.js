@@ -4,6 +4,13 @@ const SHARED_STYLES = {
   },
   "*": {
     fontFamily: "sans-serif",
+    boxSizing: "border-box",
+  },
+  button: {
+    border: "none",
+    background: "none",
+    color: "inherit",
+    font: "inherit",
   },
 };
 
