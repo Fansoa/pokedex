@@ -4,6 +4,14 @@ const config = {
     "../../src/**/*.mdx",
     "../../src/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
+  core: {
+    builder: {
+      name: "@storybook/builder-vite",
+      options: {
+        viteConfigPath: "./configs/vite/vite.config.js",
+      },
+    },
+  },
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -20,4 +28,5 @@ const config = {
     autodocs: "tag",
   },
 };
+
 export default config;
