@@ -4,14 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite -c ./configs/vite.config.js",
-    "build": "vite build -c ./configs/vite.config.js",
+    "dev": "vite -c ./configs/vite/vite.config.js",
+    "build": "vite build -c ./configs/vite/vite.config.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview -c ./configs/vite.config.js",
+    "preview": "vite preview -c ./configs/vite/vite.config.js",
     "storybook": "storybook dev -p 6006 -c ./configs/storybook",
     "build-storybook": "storybook build -c ./configs/storybook",
-    "test": "vitest -c ./configs/vite.config.js",
-    "coverage": "vitest run --coverage -c ./configs/vite.config.js",
+    "test": "vitest -c ./configs/vite/vite.config.js",
+    "coverage": "vitest run --coverage -c ./configs/vite/vite.config.js",
     "scanner": "i18next-scanner --config ./services/i18next/scanner/index.cjs"
   },
   "dependencies": {
@@ -49,6 +49,7 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.3.2",
+    "@storybook/addon-actions": "^8.0.6",
     "@storybook/addon-essentials": "^8.0.6",
     "@storybook/addon-interactions": "^8.0.6",
     "@storybook/addon-links": "^8.0.6",

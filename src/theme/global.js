@@ -3,12 +3,14 @@ const global = {
     red: "red",
     green: "green",
     blue: "blue",
+    white: "white",
     sandyBrown: "#F4A261",
     darkSlateGray: "#264653",
     burntSienna: "#E76F51",
     maximumBlue: "#38A8D5",
     taupeGrey: "#8F8F8F",
     gainsboro: "#DEDEDE",
+    darkJungleGreen: "#141A2B",
     grullo: "#A8A87B", // Normal
     mandarin: "#EE803B", // Fire
     cornflowerBlue: "#6A92ED", // Water

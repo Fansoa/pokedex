@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SubmitButton > onClick func is called when button is called 1`] = `
+.emotion-0 {
+  background-color: #F4A261;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 9.75rem;
+  height: 4.0625rem;
+  border-radius: 5rem;
+  color: white;
+}
+
+<div>
+  <button
+    class="emotion-0"
+  >
+    label
+  </button>
+</div>
+`;

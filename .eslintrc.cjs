@@ -32,7 +32,7 @@ module.exports = {
     "import/no-extraneous-dependencies": [
       "error",
       {
-        devDependencies: ["./configs/**/**.**"],
+        devDependencies: ["./configs/**/**.**", "./src/**/**.stories.jsx"],
       },
     ],
     "react/function-component-definition": [
