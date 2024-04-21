@@ -7,7 +7,7 @@ export default {
 };
 
 export const SubmitButtonStory = {
-  name: "default",
+  name: "Default",
   args: {
     label: "Search !",
     onClick: action("Button is clicked"),
