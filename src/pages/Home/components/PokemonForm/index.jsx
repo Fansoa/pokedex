@@ -34,7 +34,10 @@ const PokemonForm = () => {
         <Pokeball src={pokeball} />
         <TextInputController label="pokemon name or id" name="pokemonName" />
         <ButtonContainer>
-          <SubmitButton label={t("commom:search")} onClick={onPokemonSubmit} />
+          <SubmitButton
+            label={t("glossary:search")}
+            onClick={onPokemonSubmit}
+          />
           <RandomButton onClick={onRandomPokemonSubmit} />
         </ButtonContainer>
       </Container>
