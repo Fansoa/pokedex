@@ -5,7 +5,7 @@ const COLOR_BY_TYPE = {
   grass: "#7BC757",
   electric: "#F7CF43",
   ice: "#9AD8D8",
-  fight: "#BE322E",
+  fighting: "#BE322E",
   poison: "#9B4A99",
   ground: "#DFBF6E",
   flying: "#A893ED",
