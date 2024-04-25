@@ -18,7 +18,7 @@ const global = {
     mantis: "#7BC757", // Grass
     maize: "#F7CF43", // Electric
     crystal: "#9AD8D8", // Ice
-    internationalOrange: "#BE322E", // Fight
+    internationalOrange: "#BE322E", // fighting
     purpureus: "#9B4A99", // Poison
     fawn: "#DFBF6E", // Ground
     maximumBluePurple: "#A893ED", // Flying

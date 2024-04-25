@@ -7,7 +7,7 @@ const typeTheme = {
   grass: global.colors.mantis,
   electric: global.colors.maize,
   ice: global.colors.crystal,
-  fight: global.colors.internationalOrange,
+  fighting: global.colors.internationalOrange,
   poison: global.colors.purpureus,
   ground: global.colors.fawn,
   flying: global.colors.maximumBluePurple,

@@ -30,7 +30,7 @@ ArrowIcon.propTypes = {
     "grass",
     "electric",
     "ice",
-    "fight",
+    "fighting",
     "poison",
     "ground",
     "flying",
