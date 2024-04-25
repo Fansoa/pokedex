@@ -1,6 +1,7 @@
 import { useRoutes } from "react-router-dom";
 import TestForm from "@/src/components/TestForm";
 import HomePage from "@/src/pages/Home";
+import PokemonDetailsPage from "@/src/pages/PokemonDetails";
 
 const Routes = () => {
   const routes = useRoutes([
@@ -21,7 +22,7 @@ const Routes = () => {
         },
         {
           path: ":name",
-          element: <div>pokemon details</div>,
+          element: <PokemonDetailsPage />,
         },
       ],
     },
