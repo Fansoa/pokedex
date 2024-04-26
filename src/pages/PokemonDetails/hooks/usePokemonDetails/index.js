@@ -43,6 +43,8 @@ const usePokemonDetails = (name) => {
   const { t } = useTranslation();
 
   useEffect(() => {
+    const controller = new AbortController();
+
     const fetchPokemon = async (pokemonName) => {
       try {
         const pokemonNameInLowercase = pokemonName.toLowerCase();
@@ -83,8 +85,10 @@ const usePokemonDetails = (name) => {
         dispatch({ type: "error", error: error.message });
       }
     };
-
     fetchPokemon(name);
+    return () => {
+      controller.abort();
+    };
   }, [t, name]);
 
   return state;
