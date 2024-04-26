@@ -32,7 +32,7 @@ const PokemonDetailsPage = () => {
     return (
       <CustomLayout>
         <TopContainer>
-          <Link to="/">
+          <Link to="/" aria-label="Back to the pokemon form">
             <BackIcon />
           </Link>
           <PokemonName>{`${name} #${data.id}`}</PokemonName>

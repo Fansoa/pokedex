@@ -14,7 +14,7 @@ const PokemonChain = ({ name, imgUrl, id, hasArrowIcon, type }) => {
     <>
       <div style={{ display: "flex", flexDirection: "column" }}>
         <PokemonIllustration>
-          <Pokeball src={pokeball} />
+          <Pokeball src={pokeball} alt="pokeball" />
           <PokemonImage src={imgUrl} alt={`${name} - illustration`} />
         </PokemonIllustration>
         <PokemonId>#{id}</PokemonId>
